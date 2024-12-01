@@ -1,0 +1,363 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+  font-family: 'Khumbh Sans', sans-serif;
+}
+
+
+header {
+    display: flex;
+margin: 0 2.4rem 0;
+justify-content: space-between;
+}
+
+.menusneakers {
+    display: flex;
+    align-items: center;
+    gap: 1.6rem;
+}
+
+h1 {
+    font-size: 3rem;
+font-weight: 900;
+    letter-spacing: 1px;
+    padding-bottom: 0.7rem;
+}
+
+.cartProfile {
+    display: flex;
+    align-items: center;
+    gap: 2.2rem;
+}
+
+.avatar{
+    width: 2.4rem;
+    height: 2.4rem;
+    cursor: pointer;
+}
+
+.product {
+    width: 37.4rem;
+    height: 30rem;
+    margin-top: 2rem;
+    cursor: pointer;
+
+}
+.nextpreviusConteiner {
+    display: flex;
+    margin: 0 1.6rem;
+    gap: 28.3rem;
+    position: absolute;
+    top: 21.35rem;
+}
+
+.nextpreviusConteiner img {
+    width: 0.871rem;
+    height: 1.143rem;
+    cursor: pointer;
+
+}
+
+.previus {
+    display: flex;
+background-color: white;
+padding: 1rem;
+border-radius: 50%;
+align-items: cneter;
+justify-content: center;
+}
+
+.next {
+    display: flex;
+background-color: white;
+padding: 1rem;
+border-radius: 50%;
+align-items: cneter;
+justify-content: center;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 1.7rem;
+    margin: 2.4rem 2.4rem 0 ;
+}
+
+.sneakercompany{
+font-size: 1.2rem;
+font-weight: 700;
+line-height: 1.488prem;
+letter-spacing: 1.8461538553237915px;
+text-align: left;
+color: rgba(255, 126, 27, 1);
+
+}
+
+h2 {
+font-size: 2.8rem;
+font-weight: 700;
+line-height: 3.2rem;
+text-align: left;
+color: rgba(29, 32, 38, 1);
+
+}
+
+.paragraphproduct{
+font-size: 1.5rem;
+font-weight: 400;
+line-height: 2.5rem;
+text-align: left;
+color: rgba(105, 112, 125, 1);
+
+}
+
+.price {
+    display: flex;
+align-items: center;
+margin: 2.4rem 2.4rem 0 ;
+justify-content: space-between;
+}
+
+.realPrice {
+    display: flex;
+align-items: center;
+gap: 1.6rem;
+}
+
+.sale {
+    background: rgba(255, 126, 27, 0.2);
+padding: 0.2rem;
+}
+
+.halfprice2{
+text-decoration: line-through;
+opacity: 0.5;
+}
+
+.pliusminus {
+    display: flex;
+    justify-content: space-between;
+    margin: 2.4rem 2.4rem 0;
+    align-items: center;
+}
+
+.pliusminus p {
+font-size: 1.6rem;
+font-weight: 700;
+line-height: 1.984rem;
+text-align: center;
+color: rgba(29, 32, 38, 1);
+
+}
+
+
+
+.minus {
+    width: 1.2rem;
+    height: 0.4rem;
+    cursor: pointer;
+}
+
+.plus {
+    width: 1.3rem;
+    height: 1.3rem;
+    margin-bottom: 0.5rem;
+    cursor: pointer;
+
+}
+
+footer {
+    box-shadow: 0px 20px 50px -20px rgba(255, 126, 27, 1);
+    background: rgba(255, 126, 27, 1);
+margin: 1.6rem 2.3rem 0 ;
+border-radius: 0.5rem;
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 1.5rem;
+padding: 1.3rem 0;
+cursor: pointer;
+}
+
+footer p {
+font-size: 1.6rem;
+font-weight: 700;
+line-height: 1.984rem;
+text-align: left;
+color: rgba(255, 255, 255, 1);
+
+}
+
+.cart {
+    filter: brightness(0) invert(1); 
+  }
+
+
+  .cartcheckout{
+    padding: 0.1rem 0.6rem;
+    background: rgba(255, 126, 27, 1);
+    border-radius: 50%;
+    position: absolute;
+    top: 1rem;
+    right: 6.5rem;
+    display: none;
+  }
+  .cartcheckout p {
+color: white;
+  }
+
+
+  .cartcheckout2{
+    z-index: 999;
+    background: rgba(255, 255, 255, 1);
+    box-shadow: 0px 20px 50px -20px rgba(29, 32, 38, 0.5031);
+position: absolute;
+top: 8rem;
+left: 0.8rem;
+width: 360px;
+height: 256px;
+border-radius: 10px 0px 0px 0px;
+display: none;
+  }
+
+  .cartcheckout3{
+    z-index: 999;
+    background: rgba(255, 255, 255, 1);
+    box-shadow: 0px 20px 50px -20px rgba(29, 32, 38, 0.5031);
+position: absolute;
+top: 8rem;
+left: 0.8rem;
+width: 360px;
+height: 256px;
+border-radius: 10px 0px 0px 0px;
+display: none;
+  }
+
+  .imagecart{
+    height: 5rem;
+  }
+
+  .row{
+    margin-top: 2.4rem;
+    display: flex;
+    gap: 1.6rem;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .row2{
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0.7rem;
+  }
+
+
+
+  .cloumn{
+    display: flex;
+    flex-direction: column;
+ align-items: flex-start;
+    
+  }
+
+  .cloumn p {
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+text-align: left;
+color: rgba(105, 112, 125, 1);
+
+  }
+
+  #checkoutmoney{
+    font-weight: 700;
+    color: black;
+  }
+
+  .lastcheckout{
+    box-shadow: 0px 20px 50px -20px rgba(255, 126, 27, 1);
+    background: rgba(255, 126, 27, 1);
+    margin: 2.5rem 2.3rem 0;
+    border-radius: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.8rem 0;
+    cursor: pointer;
+    color: white;
+font-size: 1.6rem;
+font-weight: 700;
+line-height: 1.984rem;
+text-align: left;
+  }
+
+  
+
+  .cartparagraph  {
+font-size: 1.6rem;
+font-weight: 700;
+line-height: 1.984rem;
+text-align: left;
+color: rgba(29, 32, 38, 1);
+margin: 2.4rem 2.4rem;
+  }
+.empty {
+    font-size: 1.6rem;
+    font-weight: 700;
+    line-height: 2.6rem;
+    text-align: center;
+    color: rgba(105, 112, 125, 1);
+margin-top: 7.7rem;
+}
+  .menu{
+z-index: 1000;
+    position: absolute;
+    background: rgba(255, 255, 255, 1);
+padding: 2rem 13.5rem 52.50rem 2rem;
+display: none;
+  }
+
+  .close{
+    width: 1.3rem;
+    height: 1.3rem;
+  }
+  
+
+  .choose{
+display: flex;
+flex-direction: column;
+gap: 2rem;
+margin-top: 5.3rem;
+  }
+
+  .choose p {
+font-size: 1.8rem;
+font-weight: 700;
+line-height: 2.6rem;
+text-align: left;
+color: rgba(29, 32, 38, 1);
+
+  }
+
+
+  .backgroundclasslist  {
+    background: rgba(0, 0, 0, 0.5);
+    filter: brightness(30%);
+  }
+
+
+  .changebackground{
+    padding-bottom: 5rem;
+  }
+
+
